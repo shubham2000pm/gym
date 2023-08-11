@@ -1,0 +1,86 @@
+.user-dashboard {
+  text-align: center;
+  margin: 20px;
+}
+
+.welcome {
+  margin-bottom: 20px;
+}
+
+.welcome h1 {
+  font-size: 36px;
+  color: #90EE90;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.welcome p {
+  font-size: 30px;
+  color: black;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  padding: 20px;
+  border: 10px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+  
+  .user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .user-box {
+    width: 300px;
+    padding: 20px;
+    background-color: lightorange;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    color: white;
+    font-size: 18px;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .user-box:hover {
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .user-name {
+    background-color: #FFD700;
+  }
+  
+  .user-username {
+    background-color: lightpink;
+  }
+  
+  .user-phone {
+    background-color: #B19CD9;
+  }
+  
+  .user-address {
+    background-color: lightblue;
+    color: grey;
+  }
+  .sign-out-button {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.3s, background-color 0.3s;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    margin-top: 20px; 
+  }
+  
+  .sign-out-button:hover {
+    background-color: #d43f29;
+    transform: scale(1.05) translateZ(5px);
+  }

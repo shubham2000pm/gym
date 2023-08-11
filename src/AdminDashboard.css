@@ -1,0 +1,43 @@
+.admin-dashboard {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .admin-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .admin-box {
+    width: 300px;
+    padding: 20px;
+    background-color: lightpink;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    color: white;
+    font-size: 18px;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .admin-box:hover {
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .admin-name {
+    background-color: lightpink;
+  }
+  
+  .admin-id {
+    background-color: lightblue;
+  }
+  
+  .admin-phone {
+    background-color: white;
+    color: grey;
+  }
+  
